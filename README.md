@@ -1,67 +1,58 @@
-# MealPlanner
+# 🥗 MealPlanner Web Application
 
-A comprehensive meal planning web application that helps users create, save, and manage personalized meal plans based on their dietary preferences.
+MealPlanner is a comprehensive web application designed to help users create, manage, and organize **personalized meal plans** tailored to their dietary preferences and nutritional needs.
 
-![MealPlanner Screenshot](img/diet%20plan.jpg)
+## 🚀 Features
 
-## Features
+### 🔐 User Management
+- User signup, login, and password reset
+- Profile management and preference tracking
 
-- ✅ Create custom meal plans based on dietary preferences and restrictions
-- ✅ Save and organize multiple meal plans 
-- ✅ View detailed nutrition information for meals
-- ✅ Edit and customize existing meal plans
-- ✅ Mark favorite plans for quick access
-- ✅ Generate grocery lists based on your meal plans
-- ✅ Download meal plans as PDF documents
-- ✅ Automatic random meal image generation
-- ✅ Mobile-friendly responsive design
+### 🥘 Personalized Meal Plans
+Users can generate custom meal plans based on:
+- 🔢 **Daily calorie goals** (1200–4000)
+- 🍱 **Meals per day** (3–6)
+- 📅 **Plan duration** (1 day to 2 weeks)
+- 🥦 **Diet types**: Regular, Vegetarian, Vegan, Paleo, Keto, Mediterranean
+- ⚖️ **Macro distribution**: Set percentages of protein, carbs, and fats
+- ❌ **Food exclusions**: Dairy, gluten, nuts, shellfish, soy, eggs
 
+### 📋 Plan Management
+- View, edit, delete, and favorite saved plans
+- Export plans to PDF for offline use
 
-## Technologies Used
+### 🧪 Nutritional Information
+- View detailed nutrient breakdown for each meal and total daily values
 
-- PHP
-- MySQL
-- HTML5
-- CSS3
-- JavaScript
-- XAMPP (for local development)
+---
 
+## 🏗️ Technical Stack
 
-## Project Structure
+| Layer        | Technology       |
+|--------------|------------------|
+| Frontend     | HTML5, CSS3, JavaScript |
+| Backend      | PHP              |
+| Database     | MySQL            |
+| Dev Env      | XAMPP            |
 
-```
-mealplanner/
-├── css/                  # CSS stylesheets
-├── img/                  # Image assets
-│   └── meals/            # Meal images
-├── js/                   # JavaScript files
-├── meal_plan/            # Core meal planning functionality
-│   ├── index.php         # Generate new meal plans
-│   ├── saved_plans.php   # View all saved meal plans
-│   ├── view_plan.php     # View individual meal plans
-│   └── ...
-├── php/                  # Backend PHP scripts
-│   ├── db_connect.php    # Database connection
-│   └── ...
-├── index.php             # Homepage
-├── login.php             # User login
-├── profile.php           # User profile management
-├── signup.php            # New user registration
-└── README.md             # Project documentation
-```
+---
 
-## Features In Detail
+## 📁 Application Structure
 
-### Meal Plan Creation
-Users can create custom meal plans based on their dietary preferences, calorie goals, and meal frequency.
+- **Home Page**: Landing page with features, testimonials, and recipes
+- **Authentication**: Signup, login, and password reset
+- **Profile**: User info, dietary preferences, and stats (height, weight, age, body fat %, activity level)
+- **Meal Plan Creation**: Interactive form to set goals and preferences
+- **Saved Plans**: View and manage previously generated plans
+- **Plan View**: Navigate through meals with tabs and view nutritional info
 
-### Favorite Plans
-Mark any meal plan as a favorite by clicking the star icon. Favorite plans are highlighted for easy access.
+---
 
-### PDF Download
-Click the "Download" button on any saved meal plan to get a PDF version for offline use.
+## 🎯 User Experience
 
-
-
-
+MealPlanner is designed with a **clean, modern, and mobile-responsive UI**. Users can easily:
+- Set dietary preferences with sliders and dropdowns
+- Generate and visualize their personalized meal plans
+- Save and revisit plans in their library
+- Track progress through an intuitive profile dashboard
 
